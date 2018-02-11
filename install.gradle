@@ -1,3 +1,5 @@
+apply plugin: 'com.jfrog.bintray'
+
 version = libraryVersion
 
 if (project.hasProperty("android")) { // Android libraries
